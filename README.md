@@ -1,9 +1,9 @@
 # Grafana schema-v2 downgrade helper
 
-Use `scripts/convert_grafana_dashboard_v2.py` to turn a dashboard exported with the new `dashboard.grafana.app/v2beta1` schema into the older classic dashboard JSON model:
+Use `convert_grafana_dashboard_v2.py` to turn a dashboard exported with the new `dashboard.grafana.app/v2beta1` schema into the older classic dashboard JSON model:
 
 ```bash
-python3 ./scripts/convert_grafana_dashboard_v2.py /path/to/v2.json -o ./classic-dashboard.json
+python3 ./convert_grafana_dashboard_v2.py /path/to/v2.json -o ./classic-dashboard.json
 ```
 
 Notes:
